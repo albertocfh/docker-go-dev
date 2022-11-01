@@ -20,7 +20,6 @@ services:
             - '27017:27017'
         volumes:
             - ./mongodata:/data/db
-        restart: always
     # Mongo Express Web-based MongoDB admin interface
     mongo_express:
         image: 'mongo-express:0.54.0'
@@ -29,4 +28,3 @@ services:
             - 'mongo'
         ports:
             - '8081:8081'
-        restart: always

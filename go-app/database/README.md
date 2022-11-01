@@ -1,4 +1,4 @@
-# Repositories
+# Database
 
 This directory's purpose:
 
